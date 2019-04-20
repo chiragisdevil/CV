@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Details</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <p>
+    <strong>Email:</strong> chiragisdevil@gmail.com
+    <br>
+    <strong>Phone:</strong> 07966249660
+  </p>
+  <!-- Forms are used to get inputs from users-->
+  <!-- action has been changed from a html page to mailto:<email> to send email using default mail client. Also, encoding type is set to plain text -->
+  <form action="mailto:chiragisdevil@gmail.com" method="post" enctype="text/plain">
+    <!-- Label simply gives a text label -->
+    <label>Name</label>
+    <!-- input is used to get input from user and has a whole range of input types. Here it is a plain text -->
+    <input type="text" name="Name" value="">
+    <br>
+    <label>Age</label>
+    <!-- Range gives a range from min to max-->
+    <input type="range" name="Age" value="" min="1" max="100">
+    <br>
+    <p>I Agree to the terms and conditions</p>
+    <label>Agree</label>
+    <!-- Radio buttons that can be checked or unchecked. Name define if one is checked then other gets unchecked -->
+    <input type="radio" name="TC" value="Agree" checked>
+    <label>Disagree</label>
+    <input type="radio" name="TC" value="Disagree">
+    <br>
+    <label>Male</label>
+    <!-- Checkbox as name suggests-->
+    <input type="checkbox" name="Sex" value="Male">
+    <label>Female</label>
+    <input type="checkbox" name="Sex" value="Female">
+    <br>
+    <!-- Date picker automatically opens a calendar and also validates the dates formats -->
+    <label>Date of Birth</label>
+    <input type="date" name="dob" value="">
+    <br>
+    <!-- Does basic validation on the email format -->
+    <label>Email address</label>
+    <input type="email" name="YourEmail" value="">
+    <br>
+    <label>Message</label>
+    <br>
+    <!-- Text area is a paragraph of text that can be used for typing larger texts -->
+    <textarea name="message" rows="8" cols="30"></textarea>
+    <br>
+    <!-- Submit button for submitting the data -->
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>

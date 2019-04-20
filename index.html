@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--This is used for HTML 5. For HTML 4, this is much more complicated & so simplified in HTML5 -->
+<html lang="en">
+
+<head>
+  <!-- header section that will be visible at the tab name -->
+  <meta charset="utf-8"> <!-- UTF-8 is the encoding that will be used for the site. Different encoding will jumble up character set & so UTF-8 recommended-->
+  <meta name="author" content="Chirag Walia" />
+  <meta name="description" content="This is a site dedciated to Chirag Walia" />
+  <!--This is the metadata about the site. This is what search engines look for. -->
+  <title>Chirag's Personal Site</title>
+  <!--Title will be visible on the tab name-->
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="https://media.licdn.com/dms/image/C4E03AQHxjYdIrRPGAg/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=00ZEjfiVsSibrmDC24rHExM2fwJO1XgLmfcIZSISnrE" alt="Aradhya Amyra Tapsi Group Pic" height="150" width="150"></td>
+      <td>
+        <h1>Chirag's 😄 Personal Site 😄</h1> <!-- h1 to h6 size of body text-->
+        <p>
+          <!--This is a paragraph that will have normal font size-->
+          <strong>
+            <!--Same as bold or <b></b> tag but this also means that the text is important/strong-->
+            <em>
+              <!-- This is emphasis tag. We can also use <i></i> which look both simillar but mean em has emphasis on meaning as well-->
+              Architect at <a href="https://wiprodigital.com/">Wipro Digital</a>
+              <!--a stands for anchor and is used for creating links to a different URL. href is the URL that it will re-direct to and the text between >< will be what will be visible on website as a link-->
+            </em>
+          </strong>
+        </p>
+        <p>
+          I love to design and while it's been some time since I have coded, I was pretty good at it when I did it.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr size="2" noshade="true">
+  <!--Horiontal rule to create a line across the page with size 2 and <fi></fi>lled up-->
+  <h3>Experience</h3>
+  <ul>
+    <!--Unordered List is used for bullet points with dots instead of ordered lists that are instead a, b c or 1,2,3-->
+    <li>
+      <!--Line items inside the unordered lists-->
+      <em>Wipro Digital</em> - 2018-19
+    </li><br>
+    <!--Line Break-->
+    <li>
+      <em>Wipro Technologies</em> - 2005-18
+    </li>
+  </ul>
+  <h3>Hobbies</h3>
+  <ol type="1">
+    <!--Ordered List of bullet points with points written as 1,2,3 through the type. This can also be "a"-->
+    <li>Watching Football</li>
+    <li>Listening to Metal and Desi Hiphop Music</li>
+  </ol>
+  <hr size="2" noshade>
+
+  <table>
+    <thead>
+      <tr>
+        <th>
+          <h3>Trainings</h3>
+        </th>
+        <th>
+          <h3>Skills</h3>
+        </th>
+      </tr>
+    </thead>
+    <tr>
+      <td>
+        <!--<strong><h3>Trainings</h3></strong>-->
+        <table border="2" bgcolor="#C0C0C0">
+          <!-- This is used for creating a table without borders and indentation, unless specified. Border and bgcolor are deprecated. Use CSS for styling-->
+          <thead>
+            <!-- Header for the table that will have the headings-->
+            <tr>
+              <th>Name</th> <!-- Table header cell is the data or the "headings" -->
+              <th>Year of completion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Body of the table which will consists of table rows and table data-->
+            <tr>
+              <!-- Table rows. This starts a new line-->
+              <td>AWS Solution Architect</td> <!-- Table Data. This places the data in the cell -->
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Pega</td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <!-- Footed for the table -->
+          </tfoot>
+        </table>
+
+        <br>
+        <a href="contactdetails.html">Contact Details</a>
+      </td>
+      <td>
+        <!--      <h3>Skills</h3> -->
+        <table>
+          <tr>
+            <td>Cramer</td>
+            <td>🟊🟊🟊🟊🟊</td>
+          </tr>
+          <tr>
+            <td>Oracle Pl/Sql</td>
+            <td>🟊🟊🟊🟊🟊</td>
+          </tr>
+          <tr>
+            <td>Architecture</td>
+            <td>🟊🟊🟊🟊🟊</td>
+          </tr>
+          <tr>
+            <td>HMTL</td>
+            <td>🟊🟊🟊</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr size="2" noshade="true">
+  <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download Cheatsheet</a>
+  <!-- Anchor tag to redirect to the external site on clocking on Download Cheatsheet link that would be visible-->
+  <br>
+  <a href="tapsiindex.html">Tapsi Website</a>
+  <!--By using the anchor tag, we can link multiple webpages through hyper links. Eg. On clicking Tapsi website link, it will take to tapsiindex.html as long as the html file is in same path -->
+</body>
+
+</html>
